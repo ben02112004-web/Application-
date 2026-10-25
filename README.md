@@ -1,2 +1,4 @@
-# Application-
-Une application mobile fonctionnelle permettant d'importer les données de tension d'un réseau de distribution électriqu de visualiser le profil de tension, de calculer les indicateurs statistiques (somme, moyenne, maximum et minimum) d'exporter les résultats dans un rapport au format PDF.
+# تشغيل المشروع
+pip install -r requirements.txt
+flet run main.py          # تجربة على الحاسوب
+py -m flet.cli build apk  # توليد ملف APK (يتطلب Android SDK + Java JDK + Git)
